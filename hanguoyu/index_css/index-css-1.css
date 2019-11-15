@@ -1,0 +1,236 @@
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#chipupu-index-top-container{
+    background:#003D79;
+}
+
+#chipupu-index-menu{
+    width:100%;
+    max-width:1280px;
+    margin:0 auto;
+    padding:10px 8px;
+}
+
+#chipupu-index-menu span{
+    color:#D2E9FF;
+    font-size:22px;
+}
+
+
+#chipupu-index-header{
+    background:#eeeeee;
+}
+
+#chipupu-index-header-text{
+    width:100%;
+    max-width:1280px;
+    margin:12px auto;
+    padding:10px;
+}
+
+#chipupu-index-header-text > a > span{
+    color:#999999;
+    margin-right:12px;
+}
+
+#chipupu-index-content{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+#chipupu-index-content-1{
+    text-align:center;
+    background:#f6f6f6;
+}
+
+
+#chipupu-index-content-1 img{
+    width:100%;
+}
+
+#chipupu-index-content-2-content1{
+    padding:20px 0;
+    border-right:1px solid #ccc;
+}
+
+#chipupu-index-content-2-content1 h2{
+    color:#5599FF;
+    text-align:center;
+    margin:12px auto;
+}
+
+#chipupu-index-content-2-content1 p{
+    color:#999999;
+    text-align:justify;
+    line-height: 30px;
+    padding:0 20px 0 0;
+}
+
+#chipupu-index-content-2-content2{
+    padding:20px 0;
+}
+
+#chipupu-index-content-2-content2 h2{
+    color:#5599FF;
+    text-align:center;
+    margin:12px auto;
+}
+
+#chipupu-index-content-2-content2 p{
+    color:#999999;
+    text-align:justify;
+    line-height: 30px;
+    padding:0 0 0 20px;
+}
+
+#chipupu-index-content-2-content2 p button{
+    color:#5599FF;
+    font-size:16px;
+    padding:8px 12px;
+    background:transparent;
+    border:1px solid #CCDDFF;
+    border-radius:3px;
+}
+
+
+#chipupu-index-content-3{
+    background:#ECF5FF;
+}
+
+#chipupu-index-content-3-content1{
+    text-align:center;
+    padding:20px 0;
+}
+
+#chipupu-index-content-3-content1 h2{
+    color:#7373B9;
+    text-align:center;
+    margin:12px auto;
+}
+
+#chipupu-index-content-3-content1 p{
+    color:#999999;
+    line-height: 30px;
+    padding:0 20px;
+}
+
+#chipupu-index-content-3-content1 p > span{
+    color:#408080;
+}
+
+
+.parallel-width{
+    width:100%;
+    max-width:1280px;
+    margin:0 auto;
+}
+
+.chipupu-index-content-parallel{
+    padding:30px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+
+}
+
+.chipupu-index-content-left,
+.chipupu-index-content-right{
+    width:50%;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+#chipupu-index-content-4{
+    text-align:center;
+    padding:12px 0;
+    background:#fefefe;
+}
+
+#chipupu-index-content-4 .chipupu-index-content-parallel-Row > h2{
+    color:#ccc;
+    text-align:center;
+    font-size:50px;
+    margin:12px auto;
+}
+
+#chipupu-index-content-4 .chipupu-index-content-parallel-Row > span{
+    color:#ccc;
+}
+
+#chipupu-index-content-5{
+    color:#ccc;
+    vertical-align:text-top;
+    background:#3C3C3C;
+}
+
+.chipupu-index-content-parallel-Row{
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+#chipupu-index-fooder{
+    background:#363636;
+}
+
+#chipupu-index-fooder-text{
+    width:100%;
+    max-width:1280px;
+    color:#ccc;
+    text-align:center;
+    padding:8px;
+    margin:0 auto;
+}
+
+.chipupu-form-input{
+    padding:15px;
+    margin:12px 20px;
+    display: inline-block;
+    border:1px solid #ccc;
+    border-radius:3px;
+}
+
+.chipupu-form-input input{
+    width:100%;
+    height:35px;
+    padding:0 5px;
+    border:0;
+    border-radius:3px;
+}
+
+.chipupu-form-input input > h3{
+    color:#ccc;
+}
+
+
+
+.chipupu-form-img,
+.chipupu-form-Title{
+    width:100px;
+    vertical-align:text-bottom;
+    display: inline-block;
+}
+
+.chipupu-form-Title{
+    margin:0 0 0 10px;
+}
+
+.chipupu-form-img{
+    height:100px;
+    background-position: center;
+    background-attachment:scroll;
+    background-clip:padding-box;
+    background-origin:padding-box;
+    background-size:contain;
+    background-repeat:no-repeat;
+    border:1px solid #ccc;
+    cursor:pointer;
+}

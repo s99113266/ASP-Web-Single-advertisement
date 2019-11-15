@@ -1,0 +1,56 @@
+﻿* {
+    font-family: "Arial", "微軟正黑體","微软正黑体","Microsoft JhengHei", "Lucida Family";
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    word-break: break-all;
+    text-justify: inter-ideograph;
+}
+
+html, body {
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    border: 0;
+}
+
+a,img{
+    text-decoration:none;
+    vertical-align:middle;
+    border:0;
+}
+ul,li{
+    list-style-type:none;
+}
+
+html, body, p, h1, h2, h3, h4, h5, h6, td, a, img, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    text-align: center;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=date],
+input[type=button],
+input[type=submit],
+input[type=email],
+textarea,
+select {
+    font-size: initial;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+table{
+    border-collapse: collapse;
+}

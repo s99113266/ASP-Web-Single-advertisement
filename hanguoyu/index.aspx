@@ -1,8 +1,18 @@
-﻿<%@ Page Language="VBScript" Title="" AutoEventWireup="true"%>
+﻿<%@ Page Language="VBScript" Title="RFID個資防盜卡 | 韓粉必備" AutoEventWireup="true" aspcompat=true%>
+<!--#include file="OledbConnection.aspx"-->
+
+<%
+    con.open(ConnectionText(ConnectionDbFile, ConnectionDbPsw))
+
+
+
+    con.close()
+%>
+
 <!DOCTYPE html>
 <html>
 <head runat="server">
-    <title>RFID個資防盜卡 | 韓粉必備 - 氣噗噗地下商店</title>
+    <title><%=Page.Title%> - 氣噗噗地下商店</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel=stylesheet type="text/css" href="~/CSS/FontAwesome/all.min.css">
@@ -11,18 +21,9 @@
     <script type="text/javascript" src="JS/TeAjax.js"></script>
 </head>
 <body>
-    <div id="chipupu-index-top-container">
-        <div id="chipupu-index-menu">
-            <span>RFID個資防盜卡 | 韓粉必備</span>
-        </div>
-    </div>
-    <div id="chipupu-index-header">
-        <div id="chipupu-index-header-text">
-            <a href="https://www.facebook.com/%E9%9F%93%E7%B2%89%E6%9C%80%E5%89%8D%E7%B7%9A-100130858111977/"><span><i class="fab fa-facebook-f"></i> 粉絲團</span></a>
-            <a href=""><span><i class="fas fa-phone-alt"></i> 聯絡資訊</span></a>
-            <a href=""><span><i class="fas fa-scroll"></i> 訂單查詢</span></a>
-        </div>
-    </div>
+<%''' 選單  [動態函數未完成]%>
+<!--#include file="MenuUrl.aspx"-->
+
     <div id="chipupu-index-content">
         <div id="chipupu-index-content-1">
             <div id="chipupu-index-content-1-content1" class="parallel-width">
@@ -34,7 +35,7 @@
                 <div id="chipupu-index-content-2-content1" class="chipupu-index-content-left">
                     <h2>RFID防盜卡</h2>
                     <p>
-                        此防盜卡可以保護新式身分證、信用卡等…多種晶片卡被人使用RFID、NFC等技術盜取晶片資料。
+                        此防盜卡可以<b>保護個資、信用卡等…</b>多種<b>晶片卡</b>或<b>磁卡</b>被人使用RFID、NFC等技術盜取晶片資料。
                     </p>
                 </div>
                 <div id="chipupu-index-content-2-content2" class="chipupu-index-content-right">

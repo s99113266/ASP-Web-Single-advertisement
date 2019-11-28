@@ -1,0 +1,39 @@
+#chipupu-Z0-index-formBody{
+    max-width:1280px;
+    margin:12px auto;
+    padding:10px 8px;
+}
+
+#chipupu-Z0-index-formBody table{
+    width:100%;
+}
+
+#chipupu-Z0-index-formBody table td{
+    padding:5px 8px;
+}
+
+#chipupu-Z0-index-formBody table .Z0-index-formBody-Title{
+    width:90px;
+    color:#00AEAE;
+    font-size:18px;
+}
+
+#chipupu-Z0-index-formBody table input[type=text],
+#chipupu-Z0-index-formBody table input[type=number]{
+    width:100%;
+    max-width:300px;
+    height:30px;
+    padding:0 8px;
+    background:#E0E0E0;
+    border:0;
+}
+
+#Z0-index-form-but1{
+    width:100%;
+    max-width:300px;
+    color:#fff;
+    font-size:16px;
+    padding:5px 0;
+    background:	#0080FF;
+    border:0;
+}

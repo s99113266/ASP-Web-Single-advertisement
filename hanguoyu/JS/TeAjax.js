@@ -57,7 +57,7 @@ function TEAjaxFormData(TeFormButtonThis,TeFormDataID, TeFormDataURL, TeFormData
                         }
                         break;
                     default:
-                        TeFormError += "-" + TeFormHttp.status + "-" + TExmlhttp.readyState;
+                        TeFormError += "-" + TeFormHttp.status + "-" + TeFormHttp.readyState;
                         reject("编号:" + TeFormError + "\n表单发送错误，请提供错误编号给客服人员。");
                         TeFormButtonThis.disabled = false;
                         TeFormButtonThis.innerHTML = ButtonInnerHTML;

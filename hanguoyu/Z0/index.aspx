@@ -78,7 +78,7 @@
                         switch (z0fon){
                             case "1":
                                 FormErr = "商品新增完成!";
-                                FormReset("z0f");
+                                FormReset("chipupu-Z0-index-formBody");
                                 break;
                             default:
                                 FormErr = z0fon;

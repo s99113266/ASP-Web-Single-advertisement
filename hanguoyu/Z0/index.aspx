@@ -42,6 +42,9 @@
                         <td class="Z0-index-formBody-Title"><label for="z0f4">商品圖片</label></td>
                         <td><input type="file" id="z0f4" name="z0f4" accept="image/*" enctype="multipart/form-data"></td>
                     <tr>
+                        <td class="Z0-index-formBody-Title">商品介紹</td>
+                        <td></td>
+                    <tr>
                         <td></td>
                         <td>
                             <button type="button" id="Z0-index-form-but1">新增</button>

@@ -1,6 +1,9 @@
 ﻿<%@ Page Language="VBScript" AutoEventWireup="true" aspcompat=true Debug="true"%>
 <%@ Import Namespace="System.IO" %>
 <%@ Import Namespace="System.Web.Security.FormsAuthentication"%>
+<!--#include file="~/Functions/TE_Bytes.inc"-->
+<!--#include file="~/Functions/TE_TextReplace.inc"-->
+<!--#include file="~/Functions/TE_Re0_9.inc"-->
 <!--#include file="~/OledbConnection.aspx"-->
 
 <%
@@ -12,9 +15,9 @@
     z0f01_z0f3 = Trim(Request.Form("z0f3"))
     z0f01_z0f4 = Request.Files("z0f4")
 
-
     
-    Response.Write(tempCartId)
+    
+
 
     con.open(ConnectionText(ConnectionDbFile, ConnectionDbPsw))
 

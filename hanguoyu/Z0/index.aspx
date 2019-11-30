@@ -20,6 +20,7 @@
     <link rel=stylesheet type="text/css" href="~/index_css/index-css-1.css">
     <link rel=stylesheet type="text/css" href="Z0_index_CSS/Z0_INDEXCSS01.css">
     <script type="text/javascript" src="../JS/TeAjax.js"></script>
+    <script type="text/javascript" src="../JS/TeFormReset.js"></script>
 </head>
 <body>
 <%''' 選單  [動態函數未完成]%>
@@ -34,16 +35,13 @@
                         <td><input type="text" id="z0f1" name="z0f1"></td>
                     <tr>
                         <td class="Z0-index-formBody-Title"><label for="z0f2">商品金額</label></td>
-                        <td><input type="number" id="z0f2" name="z0f2"></td>
+                        <td><input type="number" id="z0f2" name="z0f2" value="0"></td>
                     <tr>
-                        <td class="Z0-index-formBody-Title"><label for="z0f3">資訊網址</label></td>
-                        <td><input type="text" id="z0f3" name="z0f3"></td>
+                        <td class="Z0-index-formBody-Title"><label for="z0f3">商品圖片</label></td>
+                        <td><input type="file" id="z0f3" name="z0f3" accept="image/*" enctype="multipart/form-data" multiple="multiple"></td>
                     <tr>
-                        <td class="Z0-index-formBody-Title"><label for="z0f4">商品圖片</label></td>
-                        <td><input type="file" id="z0f4" name="z0f4" accept="image/*" enctype="multipart/form-data"></td>
-                    <tr>
-                        <td class="Z0-index-formBody-Title">商品介紹</td>
-                        <td></td>
+                        <td class="Z0-index-formBody-Title Z0-index-formBody-Title-top"><label for="z0f4">商品介紹</label></td>
+                        <td><textarea id="z0f4" name="z0f4"></textarea></td>
                     <tr>
                         <td></td>
                         <td>
@@ -74,7 +72,20 @@
                     'POST',
                     'Z0F01'
                 ).then(
-                    function(z0fon){alert(z0fon);},
+                    function(z0fon){
+                        let FormErr;
+                        FormErr = "";
+                        switch (z0fon){
+                            case "1":
+                                FormErr = "商品新增完成!";
+                                FormReset("z0f");
+                                break;
+                            default:
+                                FormErr = z0fon;
+                                break;
+                        }
+                        alert(FormErr);
+                    },
                     function(z0foff){alert(z0foff);}
                 )
             })

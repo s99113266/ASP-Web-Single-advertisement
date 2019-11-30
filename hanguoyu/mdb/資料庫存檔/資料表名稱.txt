@@ -1,0 +1,3 @@
+Commodity = 商品資料表
+
+Order = 訂單資料表

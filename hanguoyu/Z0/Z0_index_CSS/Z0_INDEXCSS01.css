@@ -18,19 +18,33 @@
     font-size:18px;
 }
 
+#chipupu-Z0-index-formBody table .Z0-index-formBody-Title-top{
+    vertical-align:text-top;
+}
+
 #chipupu-Z0-index-formBody table input[type=text],
 #chipupu-Z0-index-formBody table input[type=number]{
     width:100%;
-    max-width:300px;
+    max-width:320px;
     height:30px;
     padding:0 8px;
     background:#E0E0E0;
     border:0;
 }
 
+#chipupu-Z0-index-formBody table textarea{
+    width:100%;
+    max-width:320px;
+    height:300px;
+    padding:8px;
+    border:0;
+    box-shadow:0 0 2px 1px #ccc;
+    resize : none;
+}
+
 #Z0-index-form-but1{
     width:100%;
-    max-width:300px;
+    max-width:320px;
     color:#fff;
     font-size:16px;
     padding:5px 0;

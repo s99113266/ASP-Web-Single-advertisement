@@ -38,7 +38,7 @@
                         <td><input type="number" id="z0f2" name="z0f2" value="0"></td>
                     <tr>
                         <td class="Z0-index-formBody-Title"><label for="z0f3">商品圖片</label></td>
-                        <td><input type="file" id="z0f3" name="z0f3" accept="image/*" enctype="multipart/form-data" multiple="multiple"></td>
+                        <td id="fileBox"><input type="file" id="z0f3" name="z0f3" accept="image/*" enctype="multipart/form-data" multiple="multiple"></td>
                     <tr>
                         <td class="Z0-index-formBody-Title Z0-index-formBody-Title-top"><label for="z0f4">商品介紹</label></td>
                         <td><textarea id="z0f4" name="z0f4"></textarea></td>
@@ -61,8 +61,9 @@
 </html>
 <script>
     window.addEventListener("load", async function(){
-        var z0ClickBut1;
+        var z0ClickBut1, z0form;
         z0ClickBut1 = document.getElementById("Z0-index-form-but1");
+        z0form = document.getElementById("z0f");
         if(z0ClickBut1){
             z0ClickBut1.addEventListener("click",async function(){
                 await TEAjaxFormData(
@@ -78,7 +79,8 @@
                         switch (z0fon){
                             case "1":
                                 FormErr = "商品新增完成!";
-                                FormReset("chipupu-Z0-index-formBody");
+                                FormReset("fileBox");
+                                z0form.reset();
                                 break;
                             default:
                                 FormErr = z0fon;

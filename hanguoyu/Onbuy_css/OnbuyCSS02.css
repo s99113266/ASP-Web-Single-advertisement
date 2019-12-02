@@ -1,0 +1,41 @@
+#Onbuy-Buy-data{
+    vertical-align:top;
+}
+
+#Onbuy-Buy-data > *{
+    margin:10px auto;
+}
+
+.Onbuy-commodity-shell{
+    width:100%;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.Onbuy-commodity-name{
+    vertical-align:middle;
+    padding:5px 0;
+    -webkit-flex: 3;
+    flex: 3;
+}
+
+.Onbuy-commodity-quantity,
+.Onbuy-commodity-money{
+    text-align:right;
+    -webkit-flex: 1;
+    flex: 1;
+
+}
+
+.Onbuy-commodity-money{
+    padding:5px 0;
+}
+
+.Onbuy-commodity-quantity input[type=number]{
+    width:50px;
+    height:32px;
+    padding:0 5px;
+    vertical-align:middle;
+    border:1px solid #ccc;
+    border-radius:3px;
+}

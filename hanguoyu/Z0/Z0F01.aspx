@@ -64,7 +64,7 @@
         z0f01_Execute &= ",'" & z0f01_Guid.ToString("N") & "'"
         z0f01_Execute &= ",'" & z0f01_z0f4 & "'"
         con.open(ConnectionText(ConnectionDbFile, ConnectionDbPsw))
-        z0f01_CommText = "Insert Into Commodity (Cod01, Cod02, Cod03, C0d04, C0d06, C0d09) Values (" & z0f01_Execute & ")"
+        z0f01_CommText = "Insert Into Commodity (Cod01, Cod02, Cod03, Cod04, Cod06, Cod09) Values (" & z0f01_Execute & ")"
         con.Execute(z0f01_CommText)
         con.close()
         Response.Write("1")

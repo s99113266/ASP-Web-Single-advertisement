@@ -1,0 +1,64 @@
+#Onbuy-Content-view{
+    width:100%;
+    max-width:1280px;
+    margin:20px auto 10px;
+}
+
+#Onbuy-Content-view h2{
+    color:#7B7B7B;
+}
+
+#Onbuy-bank-data,
+#Onbuy-Buy-data{
+    min-width:300px;
+    padding:15px 10px;
+    margin:0 10px 10px;
+    box-shadow:0 0 2px 0 #ccc;
+    display: inline-block;
+
+}
+
+#Onbuy-bank-data{
+    border-radius:3px;
+}
+
+#Onbuy-bank-data > *{
+    margin:10px auto;
+}
+
+#Onbuy-bank-data h4{
+    color:#BB3D00;
+}
+
+#Onbuy-form-content{
+    padding:12px 0 0;
+    margin:20px auto;
+}
+
+.onbuyf-input{
+    padding:5px 5px 0;
+}
+
+.onbuyf-input label{
+    color:#4F9D9D;
+    font-size:18px;
+}
+
+.onbuyf-input input{
+    width:100%;
+    height:32px;
+    padding:0 5px;
+    border:1px solid #4F9D9D;
+    border-radius:3px;
+}
+
+.onbuyf-input button{
+    width:100%;
+    color:#fff;
+    font-size:16px;
+    margin:10px auto 0;
+    padding:8px 0;
+    background:#4F9D9D;
+    border:0;
+    border-radius:3px;
+}

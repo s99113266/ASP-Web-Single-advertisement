@@ -192,9 +192,25 @@ body{
 
 .chipupu-form-input{
     padding:15px;
-    margin:12px 20px;
+    margin:12px 20px 12px 0;
     display: inline-block;
     border:1px solid #ccc;
+    border-radius:3px;
+}
+
+.chipupu-form-button{
+    vertical-align:bottom;
+    margin:12px 20px 12px 0;
+    display: inline-block;
+}
+
+.chipupu-form-button button{
+    width:150px;
+    color:#fff;
+    font-size:16px;
+    padding:5px;
+    background:#5CADAD;
+    border:0;
     border-radius:3px;
 }
 
@@ -233,4 +249,11 @@ body{
     background-repeat:no-repeat;
     border:1px solid #ccc;
     cursor:pointer;
+}
+
+.alignCenter{
+    text-align:center;
+}
+.alignRight{
+    text-align:right;
 }
